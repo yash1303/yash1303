@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-<!--
 **yash1303/yash1303** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 # 💫 About Me:
 👋 Hey, I'm Yash<br>-🎮 3D Environment & Prop Artist for Games<br><br>🧠 What I Do :- <br>-🌍 Environment design (real-time scenes)<br>-🧱 Game-ready props & asset creation<br>-🎨 PBR texturing & material workflows<br>-⚙️ Optimization for Unreal Engine<br>-🔁 Exploring procedural workflows & systems<br><br>🛠️ Tools & Tech :- <br>-Blender / 3ds Max<br>-Substance Painter<br>-Unreal Engine<br><br>🚀 Current Focus :-<br>Right now, I’m working on:<br>-Procedural environment systems<br>-Web-based 3D experiences (interactive scenes)<br>-Building projects for my game art portfolio<br><br>📂 What You'll Find Here :-<br>This GitHub is a mix of:<br>-Experiments<br>-Small tools & workflows<br>-Game environment projects<br>-Web + 3D integrations<br><br>
