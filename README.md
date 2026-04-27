@@ -1,7 +1,3 @@
-## Hi there 👋
-
-**yash1303/yash1303** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-# 💫 About Me:
 👋 Hey, I'm Yash<br>-🎮 3D Environment & Prop Artist for Games<br><br>🧠 What I Do :- <br>-🌍 Environment design (real-time scenes)<br>-🧱 Game-ready props & asset creation<br>-🎨 PBR texturing & material workflows<br>-⚙️ Optimization for Unreal Engine<br>-🔁 Exploring procedural workflows & systems<br><br>🛠️ Tools & Tech :- <br>-Blender / 3ds Max<br>-Substance Painter<br>-Unreal Engine<br><br>🚀 Current Focus :-<br>Right now, I’m working on:<br>-Procedural environment systems<br>-Web-based 3D experiences (interactive scenes)<br>-Building projects for my game art portfolio<br><br>📂 What You'll Find Here :-<br>This GitHub is a mix of:<br>-Experiments<br>-Small tools & workflows<br>-Game environment projects<br>-Web + 3D integrations<br><br>
 
 
@@ -12,7 +8,6 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)
 
 
-### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
