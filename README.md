@@ -8,13 +8,15 @@ I create game-ready environments and props focused on realism, performance, and 
 # Tools:
 (https://skillicons.dev/icons?i=blender,unrealengine)
 
-# Socials:
-<a href="https://www.linkedin.com/in/yashkamdar1303/" target="blank">
- <img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" />
-</a>
-<a href="https://www.instagram.com/_ahundredhuess_/" target="blank">
- <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
-</a>
+<p align="center">
+ <a href="https://www.linkedin.com/in/yashkamdar1303/" target="blank">
+  <img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" />
+ </a>
+ <a href="https://www.instagram.com/_ahundredhuess_/" target="blank">
+  <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
+ </a>
+</p>
+
 
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
