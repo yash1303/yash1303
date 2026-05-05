@@ -1,4 +1,4 @@
-👋 Hey, I'm Yash<br>-🎮 3D Environment & Prop Artist for<br><br>I create game-ready environments and props focused on realism, performance, and clean workflows. I enjoy building assets that not only look good but actually work inside real-time engines.<br>
+👋 Hey, I'm Yash<br>'🎮 3D Environment & Prop Artist'<br><br>I create game-ready environments and props focused on realism, performance, and clean workflows. I enjoy building assets that not only look good but actually work inside real-time engines.<br>
 
 <br>Tools:<br>
 ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
