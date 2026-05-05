@@ -5,9 +5,8 @@
 # About Me:
 I create game-ready environments and props focused on realism, performance, and clean workflows. I enjoy building assets that not only look good but actually work inside real-time engines.
 
-<br>Tools:<br>
-![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)
+# Tools:
+[![My Skills](https://skillicons.dev/icons?i=blender,unrealengine)](https://skillicons.dev)
 
 # Socials:
 <a href="https://www.linkedin.com/in/yashkamdar1303/" target="blank">
