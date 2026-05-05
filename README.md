@@ -2,12 +2,26 @@
 
 **`🎮 3D Environment & Prop Artist`**
 
-# About Me:
-I create game-ready environments and props focused on realism, performance, and clean workflows. I enjoy building assets that not only look good but actually work inside real-time engines.
+🎨 Create game-ready environments & props
 
-# Tools:
-(https://skillicons.dev/icons?i=blender,unrealengine)
+⚙️ Focus on realism, optimization, and clean workflows
 
+🌍 Interested in real-time environments & interactive 3D
+
+---
+<p align="center">
+  Tools
+</p>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=blender,unrealengine" />
+  </a>
+</p>
+
+---
+<p align="center">
+  Social
+</p>
 <p align="center">
  <a href="https://www.linkedin.com/in/yashkamdar1303/" target="blank">
   <img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" />
