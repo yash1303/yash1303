@@ -14,7 +14,7 @@
  <a href="https://www.linkedin.com/in/yashkamdar1303/" target="blank">
   <img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" />
  </a>
- <a href="https://www.instagram.com/_ahundredhuess_/" target="blank">
+ <a href="https://www.instagram.com/yash.gamedev/" target="blank">
   <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
  </a>
 </p>
