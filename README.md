@@ -1,42 +1,45 @@
 <div align="center">
-  <img src="./assets/field-notes.svg" alt="Yash Kamdar — creative practice" width="100%" />
+  <img src="./assets/workstation.svg" alt="A stylized 3D artist and creative developer workstation" width="100%" />
 </div>
 
-<br/>
-
 <div align="center">
-  <sub>✳ 3D WORLDS &nbsp; / &nbsp; INTERACTIVE THINGS &nbsp; / &nbsp; EXPERIMENTAL IDEAS</sub>
+  <code>YASH KAMDAR</code> &nbsp; / &nbsp; <code>3D ARTIST</code> &nbsp; / &nbsp; <code>CREATIVE DEVELOPER</code>
+  <br/>
+  <sub>MAKING DIGITAL WORLDS, INTERACTIVE SPACES &amp; EXPERIMENTAL THINGS</sub>
 </div>
 
 <br/>
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="60%" valign="top">
 
-### 01 — A LITTLE ABOUT THE PRACTICE
+## `01` — WHO'S AT THE WORKSTATION?
 
-I make things that sit somewhere between **games, spaces, and digital experiences**.
+I'm a 3D artist and game designer interested in building worlds that feel like places, not just scenes.
 
-Sometimes that's a world you can get lost in. Sometimes it's a tool, a visual experiment, or an idea that refuses to stay in a notebook.
+My work moves between environment art, game development, and creative web experiments. I enjoy shaping an atmosphere in 3D, then using code to make an idea interactive.
 
-I'm interested in atmosphere, interaction, world-building, and the details that make digital spaces feel alive.
+**I think in scenes. I build with tools. I experiment with code.**
 
 </td>
-<td width="42%" valign="top">
+<td width="40%" valign="top">
 
-### CURRENT MODE
+## `NOW / OPEN PROJECTS`
 
 ```text
-STATUS    exploring
-FOCUS     worlds + systems
-MEDIUM    3D / code / games
-LOCATION  somewhere online
-```
+[01] PROJECT REV
+     procedural driving worlds
 
-[PORTFOLIO ↗](https://yashkamdar.vercel.app/)  
-[ARTSTATION ↗](https://www.artstation.com/yaaaaashk)  
-[LINKEDIN ↗](https://www.linkedin.com/in/yashkamdar1303/)
+[02] SOLITUDE
+     atmospheric exploration
+
+[03] HARMONY
+     personal AI experiments
+
+[04] REMEMBER WHAT MATTERS
+     useful memory, resurfaced
+```
 
 </td>
 </tr>
@@ -44,44 +47,55 @@ LOCATION  somewhere online
 
 ---
 
-## 02 — SELECTED WORLDS & EXPERIMENTS
+## `02` — THE WORKBENCH
 
-*A few things currently taking shape.*
+<sub>TOOLS ARE JUST DIFFERENT WAYS TO MAKE SOMETHING.</sub>
+
+| 3D / ENVIRONMENT ART | GAME DEVELOPMENT | CREATIVE WEB |
+|:--|:--|:--|
+| 3ds Max | Unreal Engine 5 | HTML / CSS |
+| Blender | Blueprints | JavaScript |
+| Substance 3D Painter | C++ | TypeScript |
+| Materials & lighting | World building | React / Three.js |
+
+---
+
+## `03` — PROJECT VIEWPORT
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**01 / PROJECT REV**  
-<sub>GAME SYSTEMS · PROCEDURAL WORLDS</sub>
+### ◈ PROJECT REV
+<sub>GAME DEVELOPMENT / PROCEDURAL ENVIRONMENTS</sub>
 
-An endless road-trip through shifting landscapes. A quiet driving experience built around atmosphere, weather, and the simple pleasure of moving forward.
+An endless driving experience built around atmospheric landscapes, changing weather, and the freedom to keep moving.
 
 </td>
 <td width="50%" valign="top">
 
-**02 / SOLITUDE**  
-<sub>WALKING SIMULATOR · ENVIRONMENTAL STORYTELLING</sub>
+### ◈ SOLITUDE
+<sub>GAME DEVELOPMENT / ENVIRONMENT STORYTELLING</sub>
 
-A slow journey through an atmospheric world. Built around exploration, visual storytelling, and the feeling of being somewhere unfamiliar.
+A quiet walking simulator focused on exploration, atmosphere, and telling stories through the environment.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**03 / HARMONY**  
-<sub>AI · LOCAL-FIRST SYSTEMS</sub>
+### ◈ PROJECT HARMONY
+<sub>AI / SYSTEM DESIGN</sub>
 
-An exploration of what an accessible, personal AI assistant could look like, with an interest in local models and practical everyday use.
+Exploring an accessible personal AI assistant, with an interest in local models and useful everyday workflows.
 
 </td>
 <td width="50%" valign="top">
 
-**04 / REMEMBER WHAT MATTERS**  
-<sub>PERSONAL KNOWLEDGE · AI</sub>
+### ◈ REMEMBER WHAT MATTERS
+<sub>AI / PERSONAL KNOWLEDGE</sub>
 
-A system for bringing useful saved information back when it becomes relevant, instead of letting good ideas disappear into a pile of bookmarks.
+A system that organizes saved information and brings it back when it can actually be useful.
 
 </td>
 </tr>
@@ -89,27 +103,19 @@ A system for bringing useful saved information back when it becomes relevant, in
 
 ---
 
-## 03 — THE WORKSHOP
+## `04` — CURRENT INTERESTS
 
-Not a leaderboard. Just the materials I like working with.
-
-| 3D & WORLD BUILDING | CREATIVE DEVELOPMENT | MAKING GAMES |
-|:--|:--|:--|
-| 3ds Max · Blender | JavaScript · TypeScript | Unreal Engine |
-| Substance 3D Painter | React · Three.js | C++ · Blueprints |
-| Materials · Lighting | HTML · CSS · WebGL | Level design · Prototyping |
-
----
-
-## 04 — OPEN TABS
-
-Things I'm curious about lately:
-
-`procedural environments` &nbsp; `creative coding` &nbsp; `shader experiments`  
-`interactive portfolios` &nbsp; `game feel` &nbsp; `atmospheric storytelling`
+`WORLD BUILDING` &nbsp; `PROCEDURAL ART` &nbsp; `SHADERS` &nbsp; `CREATIVE CODING`  
+`INTERACTIVE 3D` &nbsp; `GAME FEEL` &nbsp; `ENVIRONMENTAL STORYTELLING`
 
 ---
 
 <div align="center">
-  <sub>MADE WITH CURIOSITY. BUILT ONE EXPERIMENT AT A TIME.</sub>
+  <a href="https://yashkamdar.vercel.app/">PORTFOLIO</a>
+  &nbsp; ✳ &nbsp;
+  <a href="https://www.artstation.com/yaaaaashk">ARTSTATION</a>
+  &nbsp; ✳ &nbsp;
+  <a href="https://www.linkedin.com/in/yashkamdar1303/">LINKEDIN</a>
+  <br/><br/>
+  <sub>BUILT FROM CURIOSITY — NOT JUST COMMIT HISTORY.</sub>
 </div>
