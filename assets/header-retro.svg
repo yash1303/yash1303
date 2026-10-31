@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Yash Kamdar arcade banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12082a"/><stop offset="1" stop-color="#4a1470"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe600"/><stop offset="1" stop-color="#ff4ecd"/></linearGradient>
+    <mask id="sunm">
+      <rect width="900" height="240" fill="#000"/>
+      <circle cx="770" cy="100" r="62" fill="#fff"/>
+      <rect x="700" y="116" width="140" height="3" fill="#000"/>
+      <rect x="700" y="128" width="140" height="4" fill="#000"/>
+      <rect x="700" y="140" width="140" height="6" fill="#000"/>
+      <rect x="700" y="153" width="140" height="9" fill="#000"/>
+    </mask>
+    <pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".18"/></pattern>
+  </defs>
+  <style>
+    text{font-family:'Courier New',Courier,monospace;font-weight:bold}
+    .st{fill:#fff;animation:tw 1.6s steps(1) infinite}
+    @keyframes tw{0%,60%{opacity:1}61%,100%{opacity:.15}}
+    .h{stroke:#ff4ecd;stroke-width:2;animation:run 2s cubic-bezier(.55,0,1,.8) infinite}
+    @keyframes run{from{transform:translateY(0);opacity:.1}to{transform:translateY(74px);opacity:1}}
+    .bob{animation:bob 1s steps(1) infinite}
+    @keyframes bob{0%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    .blink{animation:bl 1s steps(1) infinite}
+    @keyframes bl{0%,59%{opacity:1}60%,100%{opacity:0}}
+    .bd{animation:dash 1s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-16}}
+  </style>
+
+  <rect width="900" height="240" fill="url(#sky)"/>
+  <rect x="60" y="30" width="3" height="3" class="st"/><rect x="150" y="72" width="3" height="3" class="st" style="animation-delay:-.4s"/>
+  <rect x="270" y="24" width="3" height="3" class="st" style="animation-delay:-.9s"/><rect x="345" y="104" width="3" height="3" class="st" style="animation-delay:-.2s"/>
+  <rect x="530" y="40" width="3" height="3" class="st" style="animation-delay:-1.1s"/><rect x="610" y="92" width="3" height="3" class="st" style="animation-delay:-.6s"/>
+  <rect x="500" y="128" width="3" height="3" class="st" style="animation-delay:-1.3s"/><rect x="880" y="60" width="3" height="3" class="st" style="animation-delay:-.7s"/>
+
+  <rect x="700" y="30" width="140" height="140" fill="url(#sun)" mask="url(#sunm)"/>
+
+  <!-- floor -->
+  <rect y="165" width="900" height="75" fill="#1b0a3a"/>
+  <g stroke="#ff4ecd" stroke-width="1.5" opacity=".75">
+    <line x1="450" y1="165" x2="450" y2="240"/>
+    <line x1="450" y1="165" x2="330" y2="240"/><line x1="450" y1="165" x2="210" y2="240"/><line x1="450" y1="165" x2="90" y2="240"/><line x1="450" y1="165" x2="-30" y2="240"/><line x1="450" y1="165" x2="-150" y2="240"/><line x1="450" y1="165" x2="-270" y2="240"/><line x1="450" y1="165" x2="-390" y2="240"/>
+    <line x1="450" y1="165" x2="570" y2="240"/><line x1="450" y1="165" x2="690" y2="240"/><line x1="450" y1="165" x2="810" y2="240"/><line x1="450" y1="165" x2="930" y2="240"/><line x1="450" y1="165" x2="1050" y2="240"/><line x1="450" y1="165" x2="1170" y2="240"/><line x1="450" y1="165" x2="1290" y2="240"/>
+  </g>
+  <line class="h" x1="0" y1="165" x2="900" y2="165"/>
+  <line class="h" x1="0" y1="165" x2="900" y2="165" style="animation-delay:-.5s"/>
+  <line class="h" x1="0" y1="165" x2="900" y2="165" style="animation-delay:-1s"/>
+  <line class="h" x1="0" y1="165" x2="900" y2="165" style="animation-delay:-1.5s"/>
+  <line x1="0" y1="165" x2="900" y2="165" stroke="#00f0ff" stroke-width="2"/>
+
+  <!-- text -->
+  <text x="40" y="58" font-size="18" fill="#ffe600" letter-spacing="4">- PLAYER 1 -</text>
+  <text x="870" y="32" text-anchor="end" font-size="14" fill="#00f0ff">HI-SCORE 001303</text>
+  <g class="bob" font-size="58">
+    <text x="45" y="113" fill="#00f0ff">YASH KAMDAR</text>
+    <text x="40" y="108" fill="#ff4ecd">YASH KAMDAR</text>
+  </g>
+  <text x="40" y="145" font-size="20" fill="#ffe600" letter-spacing="3">3D ARTIST + CREATIVE DEV</text>
+  <rect x="30" y="193" width="205" height="30" fill="#12082a" opacity=".85"/>
+  <text class="blink" x="40" y="215" font-size="20" fill="#fff" letter-spacing="4">PRESS START</text>
+
+  <rect width="900" height="240" fill="url(#sl)"/>
+  <rect class="bd" x="3" y="3" width="894" height="234" fill="none" stroke="#ff4ecd" stroke-width="4" stroke-dasharray="10 6"/>
+</svg>
