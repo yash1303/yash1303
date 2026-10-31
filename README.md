@@ -1,113 +1,29 @@
+<div align="center">
 
-<!-- ================================================ -->
-<!-- PERSONAL TERMINAL -->
-<!-- ================================================ -->
+<img src="./assets/cyber-terminal.svg" width="100%" alt="Animated cyberpunk terminal introducing Yash Kamdar" />
+
+</div>
 
 <div align="center">
 
-<sub>● ● ● &nbsp; yash1303@github:~ &nbsp;&nbsp;&nbsp; [ SYSTEM ONLINE ]</sub>
-
-<br/><br/>
-
-# YASH KAMDAR<span>_</span>
-
-### GAME DEVELOPER & WORLD BUILDER
-
-<code>3D ART</code> &nbsp; / &nbsp; <code>GAME DEVELOPMENT</code> &nbsp; / &nbsp; <code>CREATIVE CODE</code> &nbsp; / &nbsp; <code>AI</code>
-
-<br/>
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://yashkamdar.vercel.app/)
+[![ArtStation](https://img.shields.io/badge/ARTSTATION-13AFF0?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/yaaaaashk)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashkamdar1303/)
 
 </div>
 
 ---
 
-### <code>➜ about.me</code>
-
-Hey! I'm **Yash**, a creative developer, 3D artist and game designer.
-
-I enjoy creating digital worlds, experimenting with interactive experiences, and bringing ideas to life through art and technology.
-
-<sub>~/profile/identity.json</sub>
-
-```yaml
-name: Yash Kamdar
-role: Game Developer & World Builder
-
-interests:
-  - Game Development
-  - 3D Environment Art
-  - Creative Coding
-  - Interactive Experiences
-  - Artificial Intelligence
-
-currently_exploring:
-  - Unreal Engine
-  - Three.js
-  - React
-  - C++
-  - AI Development
-
-philosophy: "Imagine. Build. Experiment. Repeat."
-```
-
-### <code>➜ tools --list</code>
-
-| CATEGORY | TOOLS & TECHNOLOGIES |
-|:---|:---|
-| `3D / GAMES` | Unreal Engine · 3ds Max · Blender · Substance Painter · C++ |
-| `WEB / DEV` | HTML · CSS · JavaScript · TypeScript · React · Three.js · Node.js · Git |
-| `CREATIVE` | Photoshop · Illustrator · After Effects |
-
-### <code>➜ connect</code>
-
-`[ <a href="https://yashkamdar.vercel.app/">PORTFOLIO</a> ]` &nbsp;
-`[ <a href="https://www.artstation.com/yaaaaashk">ARTSTATION</a> ]` &nbsp;
-`[ <a href="https://github.com/yash1303">GITHUB</a> ]` &nbsp;
-`[ <a href="https://www.linkedin.com/in/yashkamdar1303/">LINKEDIN</a> ]`
-
----
-
-<!-- ================================================ -->
-<!-- PROJECT DIRECTORY -->
-<!-- ================================================ -->
+## `~/projects`
 
 <div align="center">
 
-### <code>~/projects</code>
-
-<sub>ACCESSING PERSONAL PROJECT DATABASE...</sub>
-
-</div>
-
-```bash
-yash1303@github:~/projects$ ls --featured
-
-drwxr-xr-x  PROJECT_REV
-drwxr-xr-x  SOLITUDE
-drwxr-xr-x  PROJECT_HARMONY
-drwxr-xr-x  REMEMBER_WHAT_MATTERS
-
-4 projects found.
-```
-
-| PROJECT | DESCRIPTION | CATEGORY |
-|:---|:---|:---|
-| **Project Rev** | Endless procedural driving experience with atmospheric environments and dynamic weather. | `GAME` |
-| **SOLITUDE** | Atmospheric walking simulator focused on exploration and environmental storytelling. | `GAME` |
-| **Project Harmony** | AI assistant exploring accessible models and local AI infrastructure. | `AI` |
-| **Remember What Matters** | AI-powered knowledge system that organizes and resurfaces saved information. | `AI` |
-
-<div align="center">
-
-<a href="https://github.com/yash1303/Rev">
-<code>[ PROJECT REV REPOSITORY ↗ ]</code>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/yash1303?tab=repositories">
-<code>[ EXPLORE ALL REPOSITORIES ↗ ]</code>
-</a>
+| <span style="color:#00E5FF">01</span> | PROJECT | DESCRIPTION |
+|:--:|:--|:--|
+| `GAME` | **PROJECT REV** | Endless procedural driving. Atmospheric worlds, changing weather, open-road exploration. |
+| `GAME` | **SOLITUDE** | A quiet atmospheric walking simulator built around exploration and environmental storytelling. |
+| `AI` | **PROJECT HARMONY** | An AI assistant exploring accessible models and local AI infrastructure. |
+| `AI` | **REMEMBER WHAT MATTERS** | A personal knowledge system that organizes saved information and resurfaces it when useful. |
 
 </div>
 
@@ -115,6 +31,6 @@ drwxr-xr-x  REMEMBER_WHAT_MATTERS
 
 <div align="center">
 
-<sub>yash1303@github:~$ <b>_</b></sub>
+<sub><code>yash1303@github:~$</code> <em>building worlds, one experiment at a time.</em></sub>
 
 </div>
