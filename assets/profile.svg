@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="1120" viewBox="0 0 1400 1120" role="img" aria-labelledby="title desc">
+<title id="title">Yash Kamdar — 3D Artist and Creative Developer</title>
+<desc id="desc">An animated creative workstation interface featuring a wireframe world, artist profile, projects, tools, interests and social links.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1400" y2="1120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0A101B"/><stop offset=".48" stop-color="#11172A"/><stop offset="1" stop-color="#071B20"/>
+  </linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#9CFFE0"/><stop offset="1" stop-color="#47CDBB"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#B9A1FF"/><stop offset="1" stop-color="#6C68D9"/>
+  </linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFD28A"/><stop offset=".52" stop-color="#FF8B83"/><stop offset="1" stop-color="#B78AFF"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" stroke="#9AB0C8" stroke-opacity=".085" stroke-width="1"/>
+  </pattern>
+  <pattern id="scan" width="4" height="7" patternUnits="userSpaceOnUse">
+    <path d="M0 6.5H4" stroke="#fff" stroke-opacity=".025"/>
+  </pattern>
+  <filter id="glowMint" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowViolet" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="frame"><rect x="1" y="1" width="1398" height="1118" rx="24"/></clipPath>
+  <clipPath id="viewport"><rect x="42" y="245" width="1316" height="335" rx="12"/></clipPath>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .sans{font-family:Arial,Helvetica,sans-serif}
+    .muted{fill:#91A2B8}
+    .white{fill:#E8F0F7}
+    .mint{fill:#83F0D1}
+    .violet{fill:#B6A2FF}
+    .orange{fill:#FFC68B}
+    .tiny{font-size:11px;letter-spacing:1.7px}
+    .small{font-size:13px}
+    .section{font-size:12px;letter-spacing:2.4px;fill:#83F0D1}
+    .line{stroke:#60748A;stroke-opacity:.34}
+    .panel{fill:#0B121E;fill-opacity:.88;stroke:#60748A;stroke-opacity:.42}
+    .projectTitle{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:19px;fill:#EDF4FA}
+    .projectMeta{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:1.5px;fill:#83F0D1}
+    .projectDesc{font-family:Arial,Helvetica,sans-serif;font-size:13px;fill:#AAB9CA}
+  </style>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1400" height="1120" fill="url(#background)"/>
+  <rect width="1400" height="1120" fill="url(#grid)"/>
+
+  <!-- subtle ambient lights -->
+  <circle cx="1120" cy="250" r="220" fill="#6855C8" opacity=".06">
+    <animate attributeName="opacity" values=".035;.09;.035" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="210" cy="810" r="250" fill="#2DD4BF" opacity=".045">
+    <animate attributeName="opacity" values=".025;.07;.025" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- top application chrome -->
+  <rect x="26" y="24" width="1348" height="48" rx="9" fill="#080E18" stroke="#506177" stroke-opacity=".55"/>
+  <circle cx="51" cy="48" r="5.5" fill="#FF718B"/>
+  <circle cx="70" cy="48" r="5.5" fill="#FFC477"/>
+  <circle cx="89" cy="48" r="5.5" fill="#70E6C8"/>
+  <text x="116" y="52" class="mono tiny muted">YK_STUDIO / PERSONAL_WORKSPACE</text>
+  <text x="1134" y="52" class="mono tiny muted">SESSION 001  ·  2026</text>
+  <circle cx="1098" cy="48" r="4" fill="#83F0D1" filter="url(#glowMint)">
+    <animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- hero identity -->
+  <text x="48" y="116" class="mono tiny mint">INDEPENDENT CREATIVE PRACTICE</text>
+  <text x="44" y="190" class="sans white" font-size="76" font-weight="800" letter-spacing="-4">YASH KAMDAR</text>
+  <text x="50" y="224" class="mono" font-size="17" letter-spacing="3" fill="#C5D0DE">3D ARTIST <tspan fill="#83F0D1">/</tspan> GAME DESIGNER <tspan fill="#B6A2FF">/</tspan> CREATIVE DEVELOPER</text>
+  <text x="50" y="253" class="sans muted" font-size="14">I build digital worlds, shape atmospheres, and use code to make ideas interactive.</text>
+
+  <!-- small status panel -->
+  <rect x="1085" y="103" width="267" height="115" rx="10" class="panel"/>
+  <text x="1107" y="130" class="mono tiny mint">WORKSPACE STATUS</text>
+  <text x="1107" y="160" class="mono small white">MODE       <tspan fill="#83F0D1">CREATING</tspan></text>
+  <text x="1107" y="184" class="mono small white">FOCUS      <tspan fill="#B6A2FF">3D / GAME / WEB</tspan></text>
+  <text x="1107" y="205" class="mono small muted">BUILDING SINCE ALWAYS</text>
+
+  <!-- large 3D viewport -->
+  <rect x="42" y="280" width="1316" height="300" rx="12" fill="#0B1420" stroke="#668197" stroke-opacity=".5"/>
+  <g clip-path="url(#viewport)">
+    <rect x="42" y="280" width="1316" height="300" fill="#0D1825"/>
+    <rect x="42" y="280" width="1316" height="300" fill="url(#grid)" opacity=".8"/>
+    <text x="64" y="307" class="mono tiny mint">VIEWPORT_01 / WORLD STUDY</text>
+    <text x="1170" y="307" class="mono tiny muted">PERSPECTIVE / REALTIME</text>
+
+    <!-- distant wireframe terrain -->
+    <path d="M80 508L215 420L310 454L442 354L558 435L685 372L820 450L938 389L1075 463L1190 400L1320 496" stroke="#72E4CC" stroke-opacity=".62" stroke-width="1.7" fill="none"/>
+    <path d="M80 508L215 420L310 454L442 354L558 435L685 372L820 450L938 389L1075 463L1190 400L1320 496L1320 610L80 610Z" fill="#14303A" fill-opacity=".52" stroke="#72E4CC" stroke-opacity=".35"/>
+    <path d="M215 420L260 520L442 354L490 525L558 435L640 548L685 372L735 534L820 450L880 545L938 389L1000 542L1075 463L1140 550L1190 400L1240 535" stroke="#83F0D1" stroke-opacity=".32" fill="none"/>
+    <path d="M80 508L1320 496M145 485L1260 474M215 460L1200 450M290 438L1130 430M370 416L1050 412" stroke="#83F0D1" stroke-opacity=".18"/>
+    <path d="M200 420L200 580M310 454L310 580M442 354L442 580M558 435L558 580M685 372L685 580M820 450L820 580M938 389L938 580M1075 463L1075 580M1190 400L1190 580" stroke="#83F0D1" stroke-opacity=".14"/>
+
+    <!-- focal floating low-poly object -->
+    <g transform="translate(850 400)">
+      <path d="M0 -74L66 -36L66 39L0 77L-66 39L-66 -36Z" fill="#192C46" fill-opacity=".85" stroke="url(#mint)" stroke-width="1.8"/>
+      <path d="M0 -74V2L66 39M0 2L-66 39M0 2L0 77M-66 -36L0 2L66 -36" stroke="#83F0D1" stroke-opacity=".75" stroke-width="1.3"/>
+      <path d="M0 -74L0 2L-66 -36Z" fill="#B6A2FF" fill-opacity=".24"/>
+      <path d="M0 2L66 -36L66 39Z" fill="#83F0D1" fill-opacity=".12"/>
+      <path d="M-66 -36L0 -74L66 -36L0 2Z" stroke="#D6FFF4" stroke-opacity=".45" stroke-dasharray="3 5" fill="none"/>
+      <ellipse cx="0" cy="2" rx="93" ry="36" stroke="#B6A2FF" stroke-opacity=".7" stroke-dasharray="4 8" transform="rotate(-25)">
+        <animateTransform attributeName="transform" type="rotate" from="-25 0 2" to="335 0 2" dur="22s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="0" cy="-74" r="4" fill="#FFC68B" filter="url(#glowMint)"/>
+    </g>
+
+    <!-- orbiting particles -->
+    <g fill="#83F0D1">
+      <circle cx="690" cy="354" r="3"><animate attributeName="cy" values="354;340;354" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1010" cy="385" r="2.5"><animate attributeName="cy" values="385;369;385" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="1130" cy="445" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="590" cy="465" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    </g>
+    <g class="mono" font-size="10" fill="#B6A2FF">
+      <text x="960" y="355">MESH_042</text>
+      <text x="960" y="370" fill="#91A2B8">POLY COUNT / 12.8K</text>
+      <text x="72" y="550" fill="#83F0D1">X 014.20  /  Y 082.00  /  Z 003.50</text>
+      <text x="1130" y="550" fill="#FFC68B">LIVE SCENE ●</text>
+    </g>
+  </g>
+
+  <!-- About / creative approach -->
+  <rect x="42" y="602" width="410" height="206" rx="11" class="panel"/>
+  <text x="66" y="635" class="mono section">01 / THE ARTIST</text>
+  <text x="66" y="671" class="sans white" font-size="22" font-weight="700">Worlds first. Code as a tool.</text>
+  <text x="66" y="700" class="sans muted" font-size="14">I work across environment art, game design,</text>
+  <text x="66" y="721" class="sans muted" font-size="14">and creative web development. I enjoy building</text>
+  <text x="66" y="742" class="sans muted" font-size="14">places with atmosphere, then making them</text>
+  <text x="66" y="763" class="sans muted" font-size="14">interactive through systems and code.</text>
+  <path d="M66 782H428" stroke="#83F0D1" stroke-opacity=".4"/>
+
+  <!-- Tool panels -->
+  <rect x="470" y="602" width="888" height="206" rx="11" class="panel"/>
+  <text x="494" y="635" class="mono section">02 / THE TOOLKIT</text>
+  <g class="mono">
+    <text x="494" y="672" class="tiny orange">3D &amp; ENVIRONMENT ART</text>
+    <text x="494" y="700" class="small white">3ds Max</text>
+    <text x="494" y="723" class="small white">Blender</text>
+    <text x="494" y="746" class="small white">Substance 3D Painter</text>
+    <text x="494" y="769" class="small muted">Materials · Lighting · Props</text>
+
+    <path d="M770 660V782" stroke="#60748A" stroke-opacity=".35"/>
+    <text x="800" y="672" class="tiny mint">GAME DEVELOPMENT</text>
+    <text x="800" y="700" class="small white">Unreal Engine 5</text>
+    <text x="800" y="723" class="small white">Blueprints · C++</text>
+    <text x="800" y="746" class="small white">Level design · Prototyping</text>
+    <text x="800" y="769" class="small muted">World building · Game systems</text>
+
+    <path d="M1080 660V782" stroke="#60748A" stroke-opacity=".35"/>
+    <text x="1110" y="672" class="tiny violet">CREATIVE WEB</text>
+    <text x="1110" y="700" class="small white">HTML · CSS · JavaScript</text>
+    <text x="1110" y="723" class="small white">React · Three.js</text>
+    <text x="1110" y="746" class="small white">TypeScript</text>
+    <text x="1110" y="769" class="small muted">Interactive 3D · Web experiments</text>
+  </g>
+
+  <!-- Projects -->
+  <text x="48" y="855" class="mono section">03 / PROJECT FILES</text>
+  <text x="1350" y="855" text-anchor="end" class="mono tiny muted">SELECTED WORLDS &amp; EXPERIMENTS</text>
+
+  <rect x="42" y="875" width="642" height="94" rx="10" class="panel"/>
+  <rect x="42" y="875" width="4" height="94" rx="2" fill="#83F0D1"/>
+  <text x="66" y="904" class="projectMeta">GAME / PROCEDURAL ENVIRONMENTS</text>
+  <text x="66" y="932" class="projectTitle">PROJECT REV</text>
+  <text x="66" y="953" class="projectDesc">An endless drive through atmospheric, ever-changing landscapes.</text>
+
+  <rect x="700" y="875" width="658" height="94" rx="10" class="panel"/>
+  <rect x="700" y="875" width="4" height="94" rx="2" fill="#B6A2FF"/>
+  <text x="724" y="904" class="projectMeta" fill="#B6A2FF">GAME / ENVIRONMENTAL STORYTELLING</text>
+  <text x="724" y="932" class="projectTitle">SOLITUDE</text>
+  <text x="724" y="953" class="projectDesc">A quiet walking experience shaped by exploration and atmosphere.</text>
+
+  <rect x="42" y="985" width="642" height="94" rx="10" class="panel"/>
+  <rect x="42" y="985" width="4" height="94" rx="2" fill="#FFC68B"/>
+  <text x="66" y="1014" class="projectMeta" fill="#FFC68B">AI / PERSONAL SYSTEMS</text>
+  <text x="66" y="1042" class="projectTitle">PROJECT HARMONY</text>
+  <text x="66" y="1063" class="projectDesc">Exploring an accessible assistant and local-first AI workflows.</text>
+
+  <rect x="700" y="985" width="658" height="94" rx="10" class="panel"/>
+  <rect x="700" y="985" width="4" height="94" rx="2" fill="#83F0D1"/>
+  <text x="724" y="1014" class="projectMeta">AI / PERSONAL KNOWLEDGE</text>
+  <text x="724" y="1042" class="projectTitle">REMEMBER WHAT MATTERS</text>
+  <text x="724" y="1063" class="projectDesc">Bringing saved ideas back when they become useful again.</text>
+
+  <!-- footer / links -->
+  <path d="M42 1094H1358" stroke="#60748A" stroke-opacity=".45"/>
+  <g class="mono tiny">
+    <a xlink:href="https://yashkamdar.vercel.app/" target="_blank"><text x="48" y="1110" fill="#83F0D1">PORTFOLIO ↗</text></a>
+    <a xlink:href="https://www.artstation.com/yaaaaashk" target="_blank"><text x="190" y="1110" fill="#B6A2FF">ARTSTATION ↗</text></a>
+    <a xlink:href="https://www.linkedin.com/in/yashkamdar1303/" target="_blank"><text x="355" y="1110" fill="#FFC68B">LINKEDIN ↗</text></a>
+    <text x="1350" y="1110" text-anchor="end" fill="#91A2B8">MADE WITH CURIOSITY / YK_STUDIO</text>
+  </g>
+
+  <!-- animated scanning highlight -->
+  <rect x="42" y="280" width="1316" height="2" fill="#83F0D1" opacity=".5" filter="url(#glowMint)">
+    <animate attributeName="y" values="280;578;280" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".05;.55;.05" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1400" height="1120" fill="url(#scan)"/>
+  <rect x="1" y="1" width="1398" height="1118" rx="24" stroke="#83F0D1" stroke-opacity=".5" stroke-width="2"/>
+</g>
+</svg>
